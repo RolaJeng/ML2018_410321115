@@ -1,9 +1,9 @@
 ﻿### ML2018_410321115 
 
-﻿## A.the way how you prepare the training samples<br> 
-﻿# k1.png >><br>
+﻿## A.the way how you prepare the training samples
+﻿# k1.png >>
 ![Key1.png](https://github.com/RolaJeng/ML2018_410321115/blob/master/key1.png?raw=true)<br>
-﻿# k2.png >><br>
+﻿# k2.png >>
 ![Key2.png](https://github.com/RolaJeng/ML2018_410321115/blob/master/key2.png?raw=true)<br>
 ﻿# I.png >><br>
 ![I.png](https://github.com/RolaJeng/ML2018_410321115/blob/master/I.png?raw=true)<br>
@@ -14,7 +14,7 @@
 <br>
 ﻿## B. all parameters, such as MaxIterLimit, , alpha and  epsilon , you used for the training algorithm<br>
 ﻿# MaxIterLimit = 10<br>
-﻿#  $/alpha$  = 0.000001<br>
+﻿# alpha = 0.000001<br>
 ﻿# epsilon = 0.000001<br><br>
 ﻿## C.the derived weight vector w<br>
 ﻿# w = [0.25019131  0.65998307  0.09002928]<br>
