@@ -12,12 +12,12 @@ E.png >><br>
 Eprime.png >><br>
 ![Eprime.png](https://github.com/RolaJeng/ML2018_410321115/blob/master/Eprime.png?raw=true)<br>
 <br>
-B. all parameters, such as MaxIterLimit, , $\alpha$ and  $\epsilon$ , you used for the training algorithm<br>
+B. all parameters, such as MaxIterLimit, , $$\alpha$$ and  $$\epsilon$$ , you used for the training algorithm<br>
 MaxIterLimit = 10<br>
-$\alpha$  = 0.000001<br>
-$\epsilon$ = 0.000001<br>
+$$\alpha$$  = 0.000001<br>
+$$\epsilon$$ = 0.000001<br>
 C.the derived weight vector $\omega$  <br>
-$\omega$		=　[0.25019131　0.65998307　0.09002928]<br>
+$$\omega$$		=　[0.25019131　0.65998307　0.09002928]<br>
 <br>
 D.the printed image 𝐼’ decrypted from 𝐸’<br>
 Output Image<br>
