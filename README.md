@@ -1,15 +1,16 @@
 ﻿# ML2018_410321115 
+# ML2018_410321115 
 
 A.the way how you prepare the training samples<br>
 k1.png >><br>
 ![Key1.png](https://github.com/RolaJeng/ML2018_410321115/blob/master/key1.png?raw=true)<br>
-k2.png >>
+k2.png >><br>
 ![Key2.png](https://github.com/RolaJeng/ML2018_410321115/blob/master/key2.png?raw=true)<br>
-I.png >>
+I.png >><br>
 ![I.png](https://github.com/RolaJeng/ML2018_410321115/blob/master/I.png?raw=true)<br>
-E.png >>
+E.png >><br>
 ![E.png](https://github.com/RolaJeng/ML2018_410321115/blob/master/E.png?raw=true)<br>
-Eprime.png >>
+Eprime.png >><br>
 ![Eprime.png](https://github.com/RolaJeng/ML2018_410321115/blob/master/Eprime.png?raw=true)<br>
 <br>
 B. all parameters, such as MaxIterLimit, , $\alpha$ and  $\epsilon$ , you used for the training algorithm<br>
