@@ -1,11 +1,20 @@
 from sklearn.datasets import fetch_mldata
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.model_selection import  train_test_split
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import classification_report
 
 mnist = fetch_mldata('MNIST original')
 mnData = mnist['data']
 mnTarget = mnist['target']
 
+mnTarget = mnTarget.astype("int32")
+mnData = mnData / 255.0
+mnData.min(), mnData.max()
+
+trainData, testData, trainTarget, testTarget = train_test_split(mnData, mnTarget)
+trainData.shape, testData.shape
 #print(mnData.dtype, mnTarget.dtype)
 #print(mnData.shape, mnTarget.shape)
 
@@ -21,10 +30,15 @@ def pltImages(images, labels):
         subplot.set_title(labels[i])
     plt.show()
 
-p = np.random.permutation(len(mnData))
-p = p[:20]
-pltImages(mnData[p].reshape(-1, 28, 28), mnTarget[p])
+#train model using Naive Bayes
+cls = MultinomialNB()
+cls.fit(trainData, trainTarget)
+#evaluate model
+cls.score(testData, testTarget)
 
-#img = np.reshape(mnist.data[0, :], (28, 28))
-#plt.imshow(img, cmap = plt.cm.gray)
-#plt.show()
+predictions = cls.predict(testData)
+print(classification_report(testTarget, predictions))
+
+p = np.random.permutation(len(testData))
+p = p[:20]
+pltImages(testData[p].reshape(-1, 28, 28), predictions[p])
