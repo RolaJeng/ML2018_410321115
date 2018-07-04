@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import  train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report
+from sklearn import svm
+import time
 
 mnist = fetch_mldata('MNIST original')
 mnData = mnist['data']
@@ -31,12 +33,18 @@ def pltImages(images, labels):
     plt.show()
 
 #train model using Naive Bayes
-cls = MultinomialNB()
-cls.fit(trainData, trainTarget)
+#cls = MultinomialNB()
+#cls.fit(trainData, trainTarget)
 #evaluate model
-cls.score(testData, testTarget)
+#cls.score(testData, testTarget)
 
-predictions = cls.predict(testData)
+svm_clf = svm.SVC()
+svm_clf.fit(trainData, trainTarget)
+svm_clf.score(testData, testTarget)
+predictions = svm_clf.predict(testData)
+
+#predictions = cls.predict(testData)
+
 print(classification_report(testTarget, predictions))
 
 p = np.random.permutation(len(testData))
