@@ -3,7 +3,7 @@
  
 ### ● Classifier  
 ___
-我使用三種分類器: _Naive Bayes, SVM, Nearest Neighbors_  
+我使用三種分類器: _Naive Bayes, SVM, K-Nearest Neighbors_  
   
 #### _Naive Bayes:_  
 ```python
@@ -100,6 +100,6 @@ def pltImages(images, labels):
 ___  
 
 這次的作業其實沒有想像中的困難，利用老師上課教的演算法以及自己上網找的演算法，都在sklearn中可以找到相對應的程式庫，所以其實很快速地就能套用完，只是發現有些演算法需要花費相當多的時間，因此在跑程式的過程，等待了好一陣子，以為是電腦當機，最後還是順利跑完。  
-我使用了三種分類器，可以發現Naive Bayes、SVM和Nearest Neighbors當中，最準確的是SVM，而最不精準的是Naive Bayes。  
+我使用了三種分類器，可以發現Naive Bayes、SVM和K-Nearest Neighbors當中，最準確的是SVM，而最不精準的是Naive Bayes。  
 sklearn的分類器有很多種，我們可以再多多發掘不同的分類器去測試，透過實驗找出自己需要的最佳演算法。  
 謝謝機器學習導論這堂課讓我學習python以及機器學習的知識。  
