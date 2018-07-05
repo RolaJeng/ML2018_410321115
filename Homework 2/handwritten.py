@@ -46,13 +46,13 @@ def SVM(trainData, testData, trainTarget, testTarget):
     p = p[:20]
     pltImages(testData[p].reshape(-1, 28, 28), predictions[p])
 
-#train model using Nearest Neighbors
+#train model using K-Nearest Neighbors
 def KNN(trainData, testData, trainTarget, testTarget):
     knn_clf = KNeighborsClassifier(n_neighbors=10)
     knn_clf.fit(trainData, trainTarget)
     knn_acc = knn_clf.score(testData, testTarget)
     knn_acc = "%.4f" % knn_acc
-    print("Accuracy of Nearest Neighbors: " + str(knn_acc))
+    print("Accuracy of K-Nearest Neighbors: " + str(knn_acc))
     predictions = knn_clf.predict(testData)
     print(classification_report(testTarget, predictions))
     p = np.random.permutation(len(testData))
