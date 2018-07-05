@@ -47,13 +47,13 @@ def SVM(trainData, testData, trainTarget, testTarget):
     pltImages(testData[p].reshape(-1, 28, 28), predictions[p])
 
 #train model using Nearest Neighbors
-def NN(trainData, testData, trainTarget, testTarget):
-    nn_clf = KNeighborsClassifier()
-    nn_clf.fit(trainData, trainTarget)
-    nn_acc = nn_clf.score(testData, testTarget)
-    nn_acc = "%.4f" % nn_acc
-    print("Accuracy of Nearest Neighbors: " + str(nn_acc))
-    predictions = nn_clf.predict(testData)
+def KNN(trainData, testData, trainTarget, testTarget):
+    knn_clf = KNeighborsClassifier(n_neighbors=10)
+    knn_clf.fit(trainData, trainTarget)
+    knn_acc = knn_clf.score(testData, testTarget)
+    knn_acc = "%.4f" % knn_acc
+    print("Accuracy of Nearest Neighbors: " + str(knn_acc))
+    predictions = knn_clf.predict(testData)
     print(classification_report(testTarget, predictions))
     p = np.random.permutation(len(testData))
     p = p[:20]
@@ -70,5 +70,5 @@ trainData.shape, testData.shape
 
 #naiveBayes(trainData, testData, trainTarget, testTarget)
 #SVM(trainData, testData, trainTarget, testTarget)
-NN(trainData, testData, trainTarget, testTarget)
+KNN(trainData, testData, trainTarget, testTarget)
 

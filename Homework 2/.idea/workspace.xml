@@ -14,8 +14,8 @@
       <file leaf-file-name="handwritten.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/handwritten.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="66">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -137,11 +137,11 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08190224" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993395" weight="0.32905984" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50792605" side_tool="true" visible="true" weight="0.21082622" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50792605" side_tool="true" visible="true" weight="0.48290598" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.4993395" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49207398" visible="true" weight="0.21082622" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49207398" visible="true" weight="0.48290598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993395" weight="0.32905984" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -238,8 +238,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/handwritten.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="66">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
