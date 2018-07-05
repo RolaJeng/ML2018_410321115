@@ -48,9 +48,9 @@ ___
 
 Classifier | Accuracy
 :----------: | :--------:
-Naive Bayes | 0.83
-SVM | 0.94
-K-Nearest Neighbors|0.96
+Naive Bayes | 0.8217
+SVM | 0.9418
+K-Nearest Neighbors|0.9682
 
 ### ● Steps   
 ___  
