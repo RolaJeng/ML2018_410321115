@@ -63,12 +63,12 @@ mnist = fetch_mldata('MNIST original')
 mnData = mnist['data']
 mnTarget = mnist['target']
 mnTarget = mnTarget.astype("int32")
-mnData = mnData / 255.0
+mnData = mnData / 255.0 #Normalization
 mnData.min(), mnData.max()
 trainData, testData, trainTarget, testTarget = train_test_split(mnData, mnTarget)
 trainData.shape, testData.shape
 
-naiveBayes(trainData, testData, trainTarget, testTarget)
-SVM(trainData, testData, trainTarget, testTarget)
+#naiveBayes(trainData, testData, trainTarget, testTarget)
+#SVM(trainData, testData, trainTarget, testTarget)
 NN(trainData, testData, trainTarget, testTarget)
 
