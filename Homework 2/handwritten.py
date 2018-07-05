@@ -12,7 +12,6 @@ def pltImages(images, labels):
     cols = min(5, len(images))
     rows = len(images) // cols
     fig = plt.figure(figsize=(8, 8))
-
     for i in range(rows * cols):
         subplot = fig.add_subplot(rows, cols, i+1)
         plt.axis("off")
@@ -59,16 +58,25 @@ def KNN(trainData, testData, trainTarget, testTarget):
     p = p[:20]
     pltImages(testData[p].reshape(-1, 28, 28), predictions[p])
 
-mnist = fetch_mldata('MNIST original')
-mnData = mnist['data']
-mnTarget = mnist['target']
-mnTarget = mnTarget.astype("int32")
-mnData = mnData / 255.0 #Normalization
-mnData.min(), mnData.max()
-trainData, testData, trainTarget, testTarget = train_test_split(mnData, mnTarget)
-trainData.shape, testData.shape
+def main():
+    #Download data
+    mnist = fetch_mldata('MNIST original')
+    mnData = mnist['data']
+    mnTarget = mnist['target']
+    mnTarget = mnTarget.astype("int32")
 
-#naiveBayes(trainData, testData, trainTarget, testTarget)
-#SVM(trainData, testData, trainTarget, testTarget)
-KNN(trainData, testData, trainTarget, testTarget)
+    #Normalization
+    mnData = mnData / 255.0
+    mnData.min(), mnData.max()
 
+    #train_test_split
+    trainData, testData, trainTarget, testTarget = train_test_split(mnData, mnTarget)
+    trainData.shape, testData.shape
+
+    #classifiers
+    naiveBayes(trainData, testData, trainTarget, testTarget)
+    SVM(trainData, testData, trainTarget, testTarget)
+    KNN(trainData, testData, trainTarget, testTarget)
+
+if __name__ == "__main__":
+    main()

@@ -16,8 +16,8 @@
       <file leaf-file-name="handwritten.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/handwritten.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+            <state relative-caret-position="272">
+              <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -126,6 +126,14 @@
       <option name="presentableId" value="Default" />
       <updated>1530689783501</updated>
     </task>
+    <task id="LOCAL-00001" summary="EDIT CODE">
+      <created>1530764474985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530764474985</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -142,11 +150,11 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18758257" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993395" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50792605" side_tool="true" visible="true" weight="0.21112697" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5085865" side_tool="true" visible="true" weight="0.35235378" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.4993395" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49207398" weight="0.48290598" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49141347" weight="0.3537803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993395" weight="0.32905984" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -161,6 +169,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="EDIT CODE" />
+    <option name="LAST_COMMIT_MESSAGE" value="EDIT CODE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -243,8 +255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/handwritten.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        <state relative-caret-position="272">
+          <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
