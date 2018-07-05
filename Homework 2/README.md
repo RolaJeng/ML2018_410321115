@@ -12,7 +12,8 @@ nb_clf.fit(trainData, trainTarget)
 ```  
 
 結果圖:  
-![Alt text](https://github.com/RolaJeng/ML2018_410321115/blob/master/Homework%202/nb%20result.JPG)
+![Alt text](https://github.com/RolaJeng/ML2018_410321115/blob/master/Homework%202/nb%20result.JPG)  
+
 準確率:  
 ![Alt text](https://github.com/RolaJeng/ML2018_410321115/blob/master/Homework%202/nb%20acc.JPG)  
   
@@ -24,6 +25,7 @@ svm_clf.fit(trainData, trainTarget)
 
 結果圖:  
 ![Alt text](https://github.com/RolaJeng/ML2018_410321115/blob/master/Homework%202/svm%20result.JPG)  
+
 準確率:  
 ![Alt text](https://github.com/RolaJeng/ML2018_410321115/blob/master/Homework%202/svm%20acc.JPG)  
 
@@ -35,6 +37,7 @@ nn_clf.fit(trainData, trainTarget)
 
 結果圖:  
 ![Alt text](https://github.com/RolaJeng/ML2018_410321115/blob/master/Homework%202/knn%20result.JPG)  
+
 準確率:  
 ![Alt text](https://github.com/RolaJeng/ML2018_410321115/blob/master/Homework%202/knn%20acc.JPG)  
  
